@@ -42,6 +42,6 @@ class AppExtension extends AbstractExtension
 
     public static function UKMpath($path)
     {
-        return str_replace(array('UKMDesign/', 'UKMDesignBundle', ':'), array('@UKMDesign/', '', '/'), $path);
+        return str_replace(array('UKMDesign/','UKMDesignBundle', ':'), array('@UKMDesign/','UKMDesign', '/'), $path);
     }
 }

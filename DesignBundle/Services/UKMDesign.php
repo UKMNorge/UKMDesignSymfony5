@@ -1,7 +1,8 @@
 <?php
 
-namespace UKMNorge\UKMDesign\Services;
+namespace UKMNorge\DesignBundle\Services;
 
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\HttpKernel\Config\FileLocator;
 use UKMNorge\Design\Image;
 use UKMNorge\Design\Sitemap\Section;
