@@ -2,7 +2,7 @@
 
 // src/UKMNorge/DesignBundle/Twig/AppExtension.php
 
-namespace App\UKMNorge\DesignBundle\Twig;
+namespace UKMNorge\DesignBundle\Twig;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;

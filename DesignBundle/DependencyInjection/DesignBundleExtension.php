@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UKMNorge\DesignBundle\DependencyInjection;
+namespace UKMNorge\DesignBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

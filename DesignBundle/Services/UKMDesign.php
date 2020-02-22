@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UKMNorge\UKMDesign\Services;
+namespace UKMNorge\UKMDesign\Services;
 
 use Symfony\Component\HttpKernel\Config\FileLocator;
 use UKMNorge\Design\Image;

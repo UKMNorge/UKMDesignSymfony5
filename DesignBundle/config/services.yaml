@@ -1,8 +1,8 @@
 services:
-    App\UKMNorge\DesignBundle\Twig\AppExtension:
+    UKMNorge\DesignBundle\Twig\AppExtension:
         public: false
         tags: ['twig.extension']
-    App\UKMNorge\UKMDesign\Services\UKMDesign:
+    UKMNorge\UKMDesign\Services\UKMDesign:
         public: true
         arguments:
             - "@file_locator"
