@@ -24,7 +24,7 @@ class DesignBundleExtension extends Extension implements PrependExtensionInterfa
 
         $twigConfig = [];
         $twigConfig['globals']['UKMDesign'] = '@UKMNorge\DesignBundle\Services\UKMDesign';
-        $twigConfig['globals']['UKM_HOSTNAME'] = 'ukm.dev';
+        $twigConfig['globals']['UKM_HOSTNAME'] = 'ukm.no';
         $twigConfig['paths'][ realpath(__DIR__.'/../../../design/Resources/views/UKMDesign/')] = "UKMDesign";
 
         $container->prependExtensionConfig('twig', $twigConfig);
